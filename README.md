@@ -1,2 +1,12 @@
-# imajoorDiffusion
-A stable diffusion application that generates new images 
+# Flask GPU app
+## Instructions
+
+- Open the Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AssemblyAI-Examples/flask-gpu-app/blob/main/notebook.ipynb)
+
+- Go to [ngrok.com](ngrok.com), get a free API token, and in the Colab replace`YOUR-AUTHTOKEN-HERE` with the token.
+
+- Set the runtime to GPU
+
+- Click on `Runtime -> Run all`
+
+- In the output cell you should see a url similar to this: Running on `http://5fdc-104-196-187-169.ngrok.io`. Open this url and use your app.
